@@ -1,0 +1,248 @@
+body {
+    background-image: url(../images/nza_background.jpg);
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color:white;
+    box-shadow: 1px 1px 8px 1px grey, -1px 1px 8px 1px grey;
+    max-width: 60%;
+    padding: 40px;
+}
+
+#home-img {
+    margin-top: 20px;
+    max-height: 360px;
+}
+
+#header-nav {
+    margin: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.vert-bar {
+    color: rgba(130, 130, 130, 0.2);
+    display: inline-block;
+    height: 100%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+h1 {
+    color: red;
+}
+
+li {
+    margin: auto;
+}
+
+.nav-item a {
+    color:black;
+    text-transform:uppercase;
+    font-size: 0.75em;
+}
+
+.col-md-9 {
+
+
+}
+
+#welcome-img {
+    margin-bottom: 30px;
+}
+
+#reputation-img {
+    max-width: 100%;
+}
+
+.about-img {
+    max-width: 200px;
+    display: block;
+}
+
+/* Why doesn't my .about-img style work?????  */
+
+h6 {
+    font-weight:bold;
+    font-size: 12px;
+}
+
+p {
+    font-size: 11px;
+}
+
+#welcome-text {
+    max-width: 578px;
+}
+
+pre {
+    font-size: 0.7em;
+    font-family: arial, sans-serif;
+    overflow-x: hidden;
+}
+
+aside section {
+    background-image: url("../images/nav_side.jpg");
+    padding: 10px;
+}
+
+aside h6 {
+    padding-top: 10px;
+    border-bottom: 1px solid white;
+}
+
+aside ul {
+    margin-left: 0;
+}
+
+aside li {
+    list-style: none;
+}
+
+aside li a {
+    color: white;
+}
+
+aside h6, aside p, aside strong {
+    color: white;
+    font-size: 10px;
+}
+
+.sidebar {
+    list-style: none;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-left: 40px;
+    padding-right: 0;
+}
+
+.red-sidebar, .red-sidebar strong, .red-sidebar a {
+    color: white;
+    font-size: 0.75em;
+}
+
+#contact-info {
+    font-size: 0.75em;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.red-sidebar > ul {
+    padding-left: 0;
+}
+
+.red-sidebar > ul ul {
+    padding-left: 10px;
+}
+
+ul li ul li {
+    font-size: 0.75em;
+}
+
+#beige-sidebar {
+    background-image: none;
+    background-color: #D7CEC5;
+    border: 2px yellow;
+}
+
+#right-sidebar strong, a, p strong {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#home-sidebar {
+    list-style: none;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-left: 40px;
+    padding-right: 0;
+}
+
+#home-sidebar ul {
+    margin-top: 30px;
+    margin-left: 0px;
+    padding-left: 8px;
+    list-style: none;
+}
+
+#home-sidebar ul li:first-child {
+    font-weight: bold;
+}
+
+#home-sidebar ul li:last-child {
+    color: maroon;
+    text-decoration: underline;
+}
+
+#location-description {
+    font-size: 0.6em;
+    margin-bottom: 60px;
+}
+
+#location-lists ul {
+    float: left;
+}
+
+#location-lists li {
+    list-style: none;
+    font-size: 0.6em;
+    margin-right: 20px;
+}
+
+#location-lists h6 {
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.countries {
+    padding-left: 0;
+}
+
+footer {
+    border-top: 1px solid black;
+    margin-top: 20px;
+}
+
+footer ul {
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#footer-nav li a {
+    font-size: 0.5em;
+}
+
+.h-bar {
+    color: rgba(130, 130, 130, 0.2);
+    display: inline-block;
+    font-size: 0.5em;
+    padding-top: 5px;
+}
+
+footer p {
+    font-size: 0.5em;
+    text-align: center;
+    padding-top: 5px;
+}
+
+footer p > a {
+    text-decoration: none;
+    color: grey;
+}
+
+footer a:hover {
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    footer ul {
+        margin: auto;
+    }
+}

@@ -1,0 +1,119 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block styles %}
+    {{ super() }}
+    <link rel="stylesheet" href="../static/css/main.css">
+{% endblock %}
+
+{% block scripts %}
+    {{ super() }}
+{% endblock %}
+
+<!-- <body> -->
+
+    <div class="container">
+    {% block navbar %}
+        <header>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="./index.html">
+                        <img class="home-img" src="https://placehold.it/318X76" alt="placeholder image">
+                    </a>
+                    <ul class="nav"id="header-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/about.html">who we are</a>
+                        </li><span class="vert-bar">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/mission.html">what we do</a>
+                        </li><span class="vert-bar">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">news & events</a>
+                        </li><span class="vert-bar">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/locations.html">where we work</a>
+                        </li><span class="vert-bar">|</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/contact.html">contact us</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <!--ends header col 12-->
+            </div>
+            <!--ends header row-->
+        </header>
+        {% endblock %}
+
+        <main>
+            <div class="row">
+                    <div class="col-md-8">
+                        <img id="welcome-img" src="./images/nza_slideshow.jpg" alt="forest">
+                        <h6>Welcome to our website!</h6>
+                        <p id="welcome-text">Nielsen, Zehe & Antas, PC is a nationally recognized and respected law firm that offers its clients big firm experience and talent in a smaller firm environment. Our reputation is very important to us. We solve our client’s problems in some situations and prevent them all together in other situations. We welcome you to our website to learn more about us.</p>
+
+                    </div> <!-- end col 9 for main row-->
+
+                <!-- </section> -->
+                <div class="col-md-3" id="home-sidebar">
+                    <aside>
+                        <section>
+                            <h6>News Feed</h6>
+                            <p>Jeffrey Zehe and Frank DeBoni obtained dismissal of two Japanese corporations after challenging personal jurisdiction in the Circuit Court of Cook County, Law Division.</p>
+                            <p>Robert Lentz settled a building collapse claim in Roswell NM stemming from winter storm Goliath for policy limits.
+                            </p>
+                            <p>Dominick Savaiano was nominated for the Lifetime Achievement award among America's Top 100 Attorneys® for Illinois.</p>
+                            <p>In a 1983/Title IX claim brought against an Illinois school district and its administrators, Robert</p>
+                        </section>
+                        <p>
+                            <small>
+                                <ul>
+                                    <li>Nielsen, Zehe & Antas, P.C.</li>
+                                    <li>55 West Monroe Street, Suite 1800</li>
+                                    <li>Chicago, Illinois 60603</li>
+                                    <li>312-322-9900 phone</li>
+                                    <li>312-322-9977 fax</li>
+                                    <li>ENielsen@nzalaw.com</li>
+                                </ul>
+                            </small>
+                        </p>
+                    </aside>
+
+                </div> <!-- end col 3 for main row-->
+            </div> <!-- ends main row -->
+        </main>
+        <footer>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav"id="footer-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./html/about.html">who we are</a>
+                        </li><span class="h-bar">—</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/mission.html">what we do</a>
+                        </li><span class="h-bar">—</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/news.html">news & events</a>
+                        </li><span class="h-bar">—</span>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/locations.html">where we work</a>
+                        </li><span class="h-bar">—</span>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/contact.html">contact us</a>
+                        </li>
+                    </ul>
+                    <p><a href="./index.html">  Website Design by OneTen Creative</a></p>
+                </div>
+                <!--ends footer col 12-->
+            </div>
+            <!--ends footer row-->
+        </footer>
+    </div> <!-- ends container -->
+
+
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html> -->
