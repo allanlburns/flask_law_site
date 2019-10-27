@@ -9,10 +9,16 @@
     {{ super() }}
 {% endblock %}
 
+{% block title %}
+    {{ title }} - NZA Law
+{% endblock %}
+
+
 <!-- <body> -->
 
-    <div class="container">
-    {% block navbar %}
+
+    {% block content %}
+        <div class="container">
         <header>
             <div class="row">
                 <div class="col-md-12">
@@ -42,45 +48,10 @@
             </div>
             <!--ends header row-->
         </header>
+
+        {% block app_content %}
         {% endblock %}
 
-        <main>
-            <div class="row">
-                    <div class="col-md-8">
-                        <img id="welcome-img" src="./images/nza_slideshow.jpg" alt="forest">
-                        <h6>Welcome to our website!</h6>
-                        <p id="welcome-text">Nielsen, Zehe & Antas, PC is a nationally recognized and respected law firm that offers its clients big firm experience and talent in a smaller firm environment. Our reputation is very important to us. We solve our client’s problems in some situations and prevent them all together in other situations. We welcome you to our website to learn more about us.</p>
-
-                    </div> <!-- end col 9 for main row-->
-
-                <!-- </section> -->
-                <div class="col-md-3" id="home-sidebar">
-                    <aside>
-                        <section>
-                            <h6>News Feed</h6>
-                            <p>Jeffrey Zehe and Frank DeBoni obtained dismissal of two Japanese corporations after challenging personal jurisdiction in the Circuit Court of Cook County, Law Division.</p>
-                            <p>Robert Lentz settled a building collapse claim in Roswell NM stemming from winter storm Goliath for policy limits.
-                            </p>
-                            <p>Dominick Savaiano was nominated for the Lifetime Achievement award among America's Top 100 Attorneys® for Illinois.</p>
-                            <p>In a 1983/Title IX claim brought against an Illinois school district and its administrators, Robert</p>
-                        </section>
-                        <p>
-                            <small>
-                                <ul>
-                                    <li>Nielsen, Zehe & Antas, P.C.</li>
-                                    <li>55 West Monroe Street, Suite 1800</li>
-                                    <li>Chicago, Illinois 60603</li>
-                                    <li>312-322-9900 phone</li>
-                                    <li>312-322-9977 fax</li>
-                                    <li>ENielsen@nzalaw.com</li>
-                                </ul>
-                            </small>
-                        </p>
-                    </aside>
-
-                </div> <!-- end col 3 for main row-->
-            </div> <!-- ends main row -->
-        </main>
         <footer>
             <div class="row">
                 <div class="col-md-12">
@@ -109,6 +80,7 @@
             <!--ends footer row-->
         </footer>
     </div> <!-- ends container -->
+    {% endblock %}
 
 
     <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

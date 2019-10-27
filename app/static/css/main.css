@@ -22,6 +22,10 @@ body {
     border-bottom: 1px solid black;
 }
 
+#header-nav li {
+    float: left;
+}
+
 .vert-bar {
     color: rgba(130, 130, 130, 0.2);
     display: inline-block;
@@ -217,6 +221,10 @@ footer ul {
 
 #footer-nav li a {
     font-size: 0.5em;
+}
+
+#footer-nav li {
+    float: left;
 }
 
 .h-bar {
