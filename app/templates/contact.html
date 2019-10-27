@@ -1,0 +1,57 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+<main>
+   <div class="row">
+       <div class="col-md-3 col-xs-12">
+           <aside>
+               <section class="red-sidebar">
+                   <h6>CONTACT US</h6>
+                   <a href="{{ url_for('contact') }}">
+                       <p>Directions/Parking
+                       </p>
+                       <p>Career Opportunities</p>
+                   </a>
+                   <img src="../static/images/content-navlink-news.jpg" alt="Picture of pencils and paper">
+                   <p>
+                       <a href="{{ url_for('index') }}"><strong>News and Events</strong><p>Read the most current information about our firm.</p></a>
+                   </p>
+               </section>
+           </aside>
+       </div> <!-- ends col-md-3 for left sidebar -->
+       <div class="col-lg-6 col-sm-12">
+           <img src="../static/images/content-05-contact.jpg" alt="Picture of rotary telephone">
+<pre id="contact-info">
+The office hours are 8am – 5pm Monday through Friday
+
+55 West Monroe Street
+Suite 1800
+Chicago, Illinois 60603
+
+PH: 312.322.9900
+FAX: 312.322.9977
+
+Contact: Rosemary Panek at rpanek@nzalaw.com
+</pre>
+       </div> <!-- ends col-md-6 in center -->
+       <div class="col-md-3 col-sm-12">
+           <aside>
+               <section id="beige-sidebar">
+                   <img src="../static/images/content-navlink-where.jpg" alt="Locations on map of states">
+                   <p><a href="{{ url_for('contact') }}"></a></p>
+                   <p><a href="{{ url_for('locations') }}"><strong>Where we work</strong>
+                       <p>
+                           Find out more about our work coverage area
+                       </p>
+                   </a>
+                   </p>
+                   <img id="reputation-img" src="../static/images/content-link-reputation.jpg" alt="Picture of lawyers">
+                   <p>
+                       <a href="{{ url_for('about') }}"><strong>Reputation</strong><p>Read about our adminrable reputation</p></a>
+                   </p>
+               </section>
+           </aside>
+       </div> <!-- ends col-md-3 on right -->
+   </div> <!-- ends main row -->
+</main>
+{% endblock %}

@@ -22,24 +22,24 @@
         <header>
             <div class="row">
                 <div class="col-md-12">
-                    <a href="./index.html">
+                    <a class="nav-link" href="{{ url_for('index') }}">
                         <img class="home-img" src="https://placehold.it/318X76" alt="placeholder image">
                     </a>
                     <ul class="nav"id="header-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/about.html">who we are</a>
+                            <a class="nav-link" href="{{ url_for('about') }}">who we are</a>
                         </li><span class="vert-bar">|</span>
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/mission.html">what we do</a>
+                            <a class="nav-link" href="{{ url_for('mission') }}">what we do</a>
                         </li><span class="vert-bar">|</span>
                         <li class="nav-item">
-                            <a class="nav-link" href="./index.html">news & events</a>
+                            <a class="nav-link" href="{{ url_for('index') }}">news & events</a>
                         </li><span class="vert-bar">|</span>
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/locations.html">where we work</a>
+                            <a class="nav-link" href="{{ url_for('locations') }}">where we work</a>
                         </li><span class="vert-bar">|</span>
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/contact.html">contact us</a>
+                            <a class="nav-link" href="{{ url_for('contact') }}">contact us</a>
                         </li>
                     </ul>
 
@@ -57,23 +57,22 @@
                 <div class="col-md-12">
                     <ul class="nav"id="footer-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="./html/about.html">who we are</a>
+                            <a class="nav-link active" href="{{ url_for('about') }}">who we are</a>
                         </li><span class="h-bar">—</span>
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/mission.html">what we do</a>
+                            <a class="nav-link" href="{{ url_for('mission') }}">what we do</a>
                         </li><span class="h-bar">—</span>
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/news.html">news & events</a>
+                            <a class="nav-link" href="{{ url_for('index') }}">news & events</a>
                         </li><span class="h-bar">—</span>
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/locations.html">where we work</a>
+                            <a class="nav-link" href="{{ url_for('locations') }}">where we work</a>
                         </li><span class="h-bar">—</span>
-
                         <li class="nav-item">
-                            <a class="nav-link" href="./html/contact.html">contact us</a>
+                            <a class="nav-link" href="{{ url_for('contact') }}">contact us</a>
                         </li>
                     </ul>
-                    <p><a href="./index.html">  Website Design by OneTen Creative</a></p>
+                    <p><a href="{{ url_for('index') }}">  Website Design by OneTen Creative</a></p>
                 </div>
                 <!--ends footer col 12-->
             </div>
