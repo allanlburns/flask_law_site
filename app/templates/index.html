@@ -2,9 +2,11 @@
 
 {% block app_content %}
 
-<h1>Hello from the index page!</h1>
 
 <main>
+    {% if current_user.is_authenticated %}
+    <h1>Hi, {{ current_user.username.title() }}!</h1>
+    {% endif %}
     <div class="row">
             <div class="col-md-8">
                 <img id="welcome-img" src="../static/images/nza_slideshow.jpg" alt="forest">
